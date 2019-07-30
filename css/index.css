@@ -187,7 +187,7 @@ img {
 header {
   position: fixed;
   top: 0;
-  background: #169923b3;
+  background: rgba(191, 144, 24, 0.708);
   width: 100%;
   padding: 2rem;
   border-bottom: 0.2rem dashed #E5E4E1;
@@ -214,13 +214,13 @@ header .navbar nav a:hover {
   color: #332706;
 }
 header .navbar nav #signIn {
-  color: #BF9018;
+  color: #0D5814;
 }
 header .navbar nav #signIn:hover {
   color: #332706;
 }
 footer {
-  background: #169923b3;
+  background: rgba(191, 144, 24, 0.708);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -262,7 +262,8 @@ footer p {
 .site-wrapper .CTA {
   background-image: url("/imgs/book.jpg");
   height: 880px;
-  border: 0.2rem solid #E5E4E1;
+  border-left: 0.2rem solid #E5E4E1;
+  border-right: 0.2rem solid #E5E4E1;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
