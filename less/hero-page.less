@@ -3,36 +3,45 @@
         
         background-image: url("/imgs/book.jpg");
         height: 910px;
-        padding: 10rem;
+        border: 1px solid red;
+        // padding: 10rem;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
         display:flex;
-        align-content: center;
+        justify-content: center;
+        align-items: center;
         z-index:-100;
         .cta-txt{
+            display:flex;
+            // 
             border: 1px solid red;
-
+            flex-direction: column;
+            width:60%;
+            height: 80%;
             h1{
-                color: @body-color;
+                color: #332706;
             }
             h3{
-                color:@body-color;
+                color:#332706;
+            }
+            .signUp{
+                width:40%;
             }
         }//End of CTA TEXT
-        .bglogo{
-            height: 60%;
-            // z-index:-100;
-            border: 1px solid red;
-            img{
-                height: 100%;
-                width: auto;
-                image-rendering: auto;
-                image-rendering: crisp-edges;
-                image-rendering: pixelated;
-            }
-        }
+        // .bglogo{
+        //     height: 60%;
+        //     // z-index:-100;
+        //     border: 1px solid red;
+        //     img{
+        //         height: 100%;
+        //         width: auto;
+        //         image-rendering: auto;
+        //         image-rendering: crisp-edges;
+        //         image-rendering: pixelated;
+        //     }
+        // }
     }//End of CTA
     // .videoWrapper{
     //     #bgVideo {
