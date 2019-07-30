@@ -1,21 +1,28 @@
 header {
+    position: fixed;
+    top:0;
     background:@nav-bg;
-    display:flex;
     width:100%;
-    padding:1rem;
-    .logo{
-        width:82%;
-    }
-    nav{
-        width:18%;
+    padding:2rem;
+    .navbar{
+        margin: 0 auto;
+        width:1000px;
         display:flex;
-        justify-content: space-between;
-        align-items: center;
-        a{
-            font-size: 1.8rem;
-            &:hover{
-                color: darken(@font-color, 20%);
-            }
+        .logo{
+            width:82%;
         }
-    }//NAV
+        nav{
+            margin: 0 auto;
+            width:15%;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            a{
+                font-size: 1.8rem;
+                &:hover{
+                    color: darken(@font-color, 20%);
+                }
+            }
+        }//NAV
+    }//NavBar
 }//HEADER

@@ -132,6 +132,9 @@ table {
 html {
   font-size: 62.5%;
 }
+body {
+  padding-top: 9.6rem;
+}
 html,
 body {
   font-family: 'Roboto', sans-serif;
@@ -182,24 +185,31 @@ img {
   margin: 0  auto;
 }
 header {
+  position: fixed;
+  top: 0;
   background: #0D5814;
-  display: flex;
   width: 100%;
-  padding: 1rem;
+  padding: 2rem;
 }
-header .logo {
+header .navbar {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+}
+header .navbar .logo {
   width: 82%;
 }
-header nav {
-  width: 18%;
+header .navbar nav {
+  margin: 0 auto;
+  width: 15%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-header nav a {
+header .navbar nav a {
   font-size: 1.8rem;
 }
-header nav a:hover {
+header .navbar nav a:hover {
   color: #cccccc;
 }
 footer {
@@ -207,7 +217,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem;
+  padding: 1.25rem;
 }
 footer nav {
   width: 42%;
@@ -245,12 +255,14 @@ footer p {
 }
 .site-wrapper .CTA {
   background-image: url("/imgs/book.jpg");
-  height: 500px;
+  height: 900px;
+  padding: 10rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   display: flex;
+  align-content: center;
 }
 .site-wrapper .CTA .cta-txt {
   border: 1px solid red;
@@ -263,7 +275,6 @@ footer p {
 }
 .site-wrapper .CTA .bglogo {
   height: 60%;
-  z-index: -100;
   border: 1px solid red;
 }
 .site-wrapper .CTA .bglogo img {
