@@ -210,7 +210,13 @@ header .navbar nav a {
   font-size: 1.8rem;
 }
 header .navbar nav a:hover {
+  color: #332706;
+}
+header .navbar nav #signIn {
   color: #BF9018;
+}
+header .navbar nav #signIn:hover {
+  color: #332706;
 }
 footer {
   background: #0D5814;
@@ -278,5 +284,6 @@ footer p {
   color: #332706;
 }
 .site-wrapper .CTA .cta-txt .signUp {
+  align-items: baseline;
   width: 40%;
 }
