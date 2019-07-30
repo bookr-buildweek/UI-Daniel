@@ -179,7 +179,7 @@ img {
 .site-wrapper {
   max-width: 1000px;
   width: 100%;
-  margin: 2rem auto;
+  margin: 0  auto;
 }
 header {
   background: #0D5814;
@@ -243,27 +243,33 @@ footer nav .fa-twitter {
 footer p {
   font-size: 1rem;
 }
-.site-wrapper {
-  background: #169923b3;
-}
-.site-wrapper #bgVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  z-index: -100;
-  min-width: 100%;
-  min-height: 100%;
-}
 .site-wrapper .CTA {
-  border: 1px solid red;
+  background-image: url("/imgs/book.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
 }
 .site-wrapper .CTA .cta-txt {
   border: 1px solid red;
-  width: 50%;
 }
 .site-wrapper .CTA .cta-txt h1 {
   color: #EED98F;
 }
 .site-wrapper .CTA .cta-txt h3 {
   color: #EED98F;
+}
+.site-wrapper .CTA .bglogo {
+  height: 60%;
+  z-index: -100;
+  border: 1px solid red;
+}
+.site-wrapper .CTA .bglogo img {
+  height: 100%;
+  width: auto;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
 }
