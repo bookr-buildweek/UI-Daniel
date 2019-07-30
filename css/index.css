@@ -207,14 +207,15 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 1rem;
 }
 footer nav {
   width: 42%;
 }
 footer nav .fa {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   padding: 1rem;
-  width: 6rem;
+  width: 5.5rem;
   text-align: center;
   text-decoration: none;
   margin: 0.5rem 2rem;
@@ -243,7 +244,22 @@ footer p {
   font-size: 1rem;
 }
 .site-wrapper {
-  background: #169923;
+  background: #169923b3;
+}
+.site-wrapper #bgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -100;
+  min-width: 100%;
+  min-height: 100%;
+}
+.site-wrapper .CTA {
+  border: 1px solid red;
+}
+.site-wrapper .CTA .cta-txt {
+  border: 1px solid red;
+  width: 50%;
 }
 .site-wrapper .CTA .cta-txt h1 {
   color: #EED98F;
