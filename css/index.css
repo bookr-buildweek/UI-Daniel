@@ -209,12 +209,12 @@ footer {
   align-items: center;
 }
 footer nav {
-  border: 1px red solid;
-  width: 50%;
+  width: 42%;
 }
 footer nav .fa {
+  font-size: 3.5rem;
   padding: 1rem;
-  width: 3rem;
+  width: 6rem;
   text-align: center;
   text-decoration: none;
   margin: 0.5rem 2rem;
