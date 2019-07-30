@@ -132,6 +132,9 @@ table {
 html {
   font-size: 62.5%;
 }
+body {
+  padding-top: 8.85rem;
+}
 html,
 body {
   font-family: 'Roboto', sans-serif;
@@ -179,38 +182,42 @@ img {
 .site-wrapper {
   max-width: 1000px;
   width: 100%;
-  margin: 2rem auto;
+  margin: 0  auto;
 }
 header {
+  position: fixed;
+  top: 0;
   background: #0D5814;
-  display: flex;
   width: 100%;
-  padding: 1rem;
+  padding: 2rem;
 }
-header .logo {
+header .navbar {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+}
+header .navbar .logo {
   width: 82%;
 }
-header nav {
-  width: 18%;
+header .navbar nav {
+  margin: 0 auto;
+  width: 15%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-header nav a {
+header .navbar nav a {
   font-size: 1.8rem;
 }
-header nav a:hover {
-  color: #cccccc;
+header .navbar nav a:hover {
+  color: #BF9018;
 }
 footer {
   background: #0D5814;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem;
-}
-footer nav {
-  width: 42%;
+  padding: 1.25rem;
 }
 footer nav .fa {
   font-size: 2.5rem;
@@ -241,29 +248,35 @@ footer nav .fa-twitter {
   color: white;
 }
 footer p {
+  padding: 0.5rem;
   font-size: 1rem;
 }
-.site-wrapper {
-  background: #169923b3;
-}
-.site-wrapper #bgVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  z-index: -100;
-  min-width: 100%;
-  min-height: 100%;
-}
 .site-wrapper .CTA {
+  background-image: url("/imgs/book.jpg");
+  height: 910px;
   border: 1px solid red;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -100;
 }
 .site-wrapper .CTA .cta-txt {
+  display: flex;
   border: 1px solid red;
-  width: 50%;
+  flex-direction: column;
+  width: 60%;
+  height: 80%;
 }
 .site-wrapper .CTA .cta-txt h1 {
-  color: #EED98F;
+  color: #332706;
 }
 .site-wrapper .CTA .cta-txt h3 {
-  color: #EED98F;
+  color: #332706;
+}
+.site-wrapper .CTA .cta-txt .signUp {
+  width: 40%;
 }
