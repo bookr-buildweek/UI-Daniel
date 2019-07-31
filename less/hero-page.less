@@ -1,14 +1,12 @@
 .site-wrapper{
     .CTA{
         height: auto;
-        width:auto;
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        width:100%;
+        // display:flex;
+        // flex-direction: column;
+        // justify-content: flex-start;
         z-index:-100;
-        // background: rgba(255, 255, 255, 0.399);
-        // border: 1px solid red;
+        border: 1px solid red;
         @media @mobile{
             width: 100%;
             height:auto;
@@ -16,27 +14,27 @@
         .cta-txt{
             display:flex;
             flex-direction: column;
-            width:40%;
-            height: 30%;
-            margin-left: 24rem;
-            text-align: center;
-            // background: rgba(255, 255, 255, 0.399);
+            width:100%;
+            height: 100%;
+            border: 1px solid red;
+            
+            // margin-left: 24rem;
+            text-align: justify;
             @media @mobile{
                 margin: 0;
                 width:100%;
             }//Phone
             h1{
-                color: #F2B71E;
-                font-size: 10rem;
+                color: @title-color;
+                font-size: 15rem;
                 padding-bottom:5rem;
-                // text-shadow: 2px 2px #070707;
                 @media @mobile{
                     padding-bottom:3rem;
                 }//Phone
             }
             h3{
-                color:#F2B71E;
-                // text-shadow: 2px 2px #070707;
+                color:#332706;
+                font-size: 5.5rem;
                 @media @mobile{
                     padding-bottom:2rem;
                 }//Phone
@@ -45,7 +43,6 @@
         .signUp{
             align-items: baseline;
             width:40%;
-            margin-left: 24rem;
             .button-master(1.5rem, 1.5rem);
             .hover();
             @media @mobile{
@@ -54,40 +51,35 @@
             }//Phone
         }//Sign Up button
     }//End of CTA
-
-    // .videoWrapper{
-    //     #bgVideo {
-    //     //     position: fixed;
-    //     //     right: 0;
-    //     //     bottom: 0;
-    //     //     top:0;
-    //     //     left: 0;
-    //     //     z-index:-200;
-    //     //     max-width: 100%; 
-    //     //     max-height: 100%;
-    //     // }//Background video
-    //     // @media @mobile{
-    //     //     // position: fixed;
-    //     //     // // top: 50%;
-    //     //     // left: 50%;
-    //     //     min-width: 100%;
-    //     //     min-height: 100%;
-    //     //     width: auto;
-    //     //     height: auto;
-    //     }//Phone
-    // }//Video Wrapper
+    #bgVideo{
+        width: 200vh;
+        height: 200vh;
+        margin:0;
+        // position: fixed;
+        // top:0;
+        // left:0;
+        // width:100vw;
+        // height: 100vw;
+        // z-index: -200;
+        // min-width: 100vw;
+        // min-height: 100vw;
+        //         -webkit-transform: translateX(-50%) translateY(-50%);
+        //         transform: translateX(-50%) translateY(-50%);
+    }
     .videoWrapper{ 
         position: fixed;
         top: 50%;
         left: 50%;
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
+
+        width: 100%;
+        height: 100%;
         z-index: -200;
-        -webkit-transform: translateX(-50%) translateY(-50%);
-                transform: translateX(-50%) translateY(-50%);
-    }
+        -webkit-transform: translateX(-50%) translateY(-100%);
+                transform: translateX(-50%) translateY(-100%);
+            @media @mobile{
+                display: none;
+            }
+    }//video
 }//Site Wrapper
 
 
