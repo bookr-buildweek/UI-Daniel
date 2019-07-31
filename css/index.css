@@ -207,6 +207,11 @@ img {
   height: 90vh;
   background: rgba(235, 231, 231, 0.625);
 }
+@media (max-width: 500px) {
+  .backgroundLanding {
+    background-image: url("/imgs/book.jpg");
+  }
+}
 .about-wrapper {
   max-width: 1000px;
   width: 100%;
@@ -246,7 +251,12 @@ header .navbar {
   }
 }
 header .navbar .logo {
-  width: 82%;
+  width: 78%;
+}
+@media (max-width: 1000px) {
+  header .navbar .logo {
+    width: 65%;
+  }
 }
 @media (max-width: 800px) {
   header .navbar .logo {
@@ -433,6 +443,9 @@ footer p {
   background-color: #e9bf54;
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
   color: #fff;
+}
+.site-wrapper .CTA .btn .signUp:hover {
+  box-shadow: 0px 15px 22px #00000048;
 }
 @media (max-width: 500px) {
   .site-wrapper .CTA .btn .signUp {
