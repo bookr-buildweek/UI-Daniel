@@ -135,6 +135,8 @@ html {
 body {
   padding-top: 9.85rem;
 }
+@media (max-width: 500px) {
+}
 html,
 body {
   font-family: 'Roboto', sans-serif;
@@ -191,18 +193,27 @@ header {
   width: 100%;
   padding: 2rem;
 }
+@media (max-width: 500px) {
+  header {
+    padding: 1rem;
+  }
+}
 header .navbar {
   margin: 0 auto;
   width: 1000px;
   display: flex;
+}
+@media (max-width: 500px) {
+  header .navbar {
+    width: 100%;
+  }
 }
 header .navbar .logo {
   width: 82%;
 }
 @media (max-width: 500px) {
   header .navbar .logo {
-    width: 20%;
-    border: 1px solid red;
+    width: 70%;
   }
 }
 header .navbar nav {
@@ -211,6 +222,14 @@ header .navbar nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media (max-width: 500px) {
+  header .navbar nav {
+    width: 30%;
+  }
+  header .navbar nav a {
+    font-size: 3rem;
+  }
 }
 header .navbar nav a {
   font-size: 1.8rem;
@@ -231,6 +250,13 @@ footer {
   align-items: center;
   padding: 1.25rem;
 }
+@media (max-width: 500px) {
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}
 footer nav .fa {
   font-size: 2.5rem;
   padding: 1rem;
@@ -239,6 +265,13 @@ footer nav .fa {
   text-decoration: none;
   margin: 0.5rem 2rem;
   border-radius: 50%;
+}
+@media (max-width: 500px) {
+  footer nav .fa {
+    width: 7rem;
+    font-size: 3rem;
+    padding: 2rem;
+  }
 }
 footer nav .fa:hover {
   opacity: 0.7;
@@ -271,6 +304,12 @@ footer p {
   align-items: center;
   z-index: -100;
 }
+@media (max-width: 500px) {
+  .site-wrapper .CTA {
+    width: 100%;
+    height: auto;
+  }
+}
 .site-wrapper .CTA .cta-txt {
   display: flex;
   flex-direction: column;
@@ -280,15 +319,31 @@ footer p {
   text-align: center;
   background: rgba(255, 255, 255, 0.399);
 }
+@media (max-width: 500px) {
+  .site-wrapper .CTA .cta-txt {
+    margin: 0;
+    width: 100%;
+  }
+}
 .site-wrapper .CTA .cta-txt h1 {
   color: #F2B71E;
   font-size: 10rem;
   padding-bottom: 5rem;
   text-shadow: 2px 2px #070707;
 }
+@media (max-width: 500px) {
+  .site-wrapper .CTA .cta-txt h1 {
+    padding-bottom: 3rem;
+  }
+}
 .site-wrapper .CTA .cta-txt h2 {
   color: #F2B71E;
   text-shadow: 2px 2px #070707;
+}
+@media (max-width: 500px) {
+  .site-wrapper .CTA .cta-txt h2 {
+    padding-bottom: 2rem;
+  }
 }
 .site-wrapper .CTA .signUp {
   align-items: baseline;
@@ -312,6 +367,12 @@ footer p {
   color: #fff;
   transform: translateY(-7px);
 }
+@media (max-width: 500px) {
+  .site-wrapper .CTA .signUp {
+    margin: 0;
+    width: 65%;
+  }
+}
 .site-wrapper .videoWrapper #bgVideo {
   position: fixed;
   right: 0;
@@ -320,4 +381,12 @@ footer p {
   z-index: -200;
   max-width: 100%;
   max-height: 100%;
+}
+@media (max-width: 500px) {
+  .site-wrapper .videoWrapper {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+  }
 }
