@@ -289,6 +289,7 @@ footer p {
   width: 40%;
   margin-left: 24rem;
   background-color: #BF9018;
+  border: 1px solid #BF9018;
   color: white;
   text-align: center;
   font-weight: bold;
@@ -296,11 +297,14 @@ footer p {
   border-radius: 1.5rem;
   cursor: pointer;
   padding: 1.5rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
 }
 .site-wrapper .CTA .signUp:hover {
-  transform: scale(1.1);
   background-color: #e9bf54;
-  transition: 1s;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
 }
 .site-wrapper .videoWrapper #bgVideo {
   position: fixed;
