@@ -136,6 +136,9 @@ body {
   padding-top: 9.85rem;
 }
 @media (max-width: 500px) {
+  body {
+    padding-top: 6rem;
+  }
 }
 html,
 body {
@@ -187,6 +190,11 @@ img {
   margin: 0  auto;
   height: 80%;
 }
+@media (max-width: 500px) {
+  .site-wrapper {
+    height: 50%;
+  }
+}
 .backgroundLanding {
   background: black;
   z-index: -189;
@@ -221,7 +229,7 @@ header .navbar .logo {
 }
 @media (max-width: 500px) {
   header .navbar .logo {
-    width: 65%;
+    width: 60%;
   }
 }
 header .navbar nav {
@@ -310,6 +318,9 @@ footer p {
   .site-wrapper .CTA {
     width: 100%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 .site-wrapper .CTA .cta-txt {
@@ -333,6 +344,8 @@ footer p {
 @media (max-width: 500px) {
   .site-wrapper .CTA .cta-txt h1 {
     padding-bottom: 3rem;
+    font-size: 13rem;
+    text-align: center;
   }
 }
 .site-wrapper .CTA .cta-txt h3 {
@@ -342,11 +355,20 @@ footer p {
 }
 @media (max-width: 500px) {
   .site-wrapper .CTA .cta-txt h3 {
-    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-size: 4rem;
+    text-align: center;
   }
 }
 .site-wrapper .CTA .btn {
   padding-left: 20rem;
+}
+@media (max-width: 500px) {
+  .site-wrapper .CTA .btn {
+    padding-left: 0;
+    margin-top: 10rem;
+    width: 60%;
+  }
 }
 .site-wrapper .CTA .btn .signUp {
   align-items: baseline;
@@ -363,16 +385,15 @@ footer p {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
 }
-.site-wrapper .CTA .btn .signUp:hover {
+.site-wrapper .CTA .btn .signUp:active {
   background-color: #e9bf54;
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
   color: #fff;
-  transform: translateY(-7px);
 }
 @media (max-width: 500px) {
   .site-wrapper .CTA .btn .signUp {
     margin: 0;
-    width: 65%;
+    width: 100%;
   }
 }
 .site-wrapper #bgVideo {
