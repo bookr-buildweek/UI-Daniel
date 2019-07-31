@@ -207,6 +207,12 @@ img {
   height: 90vh;
   background: rgba(235, 231, 231, 0.625);
 }
+.about-wrapper {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0  auto;
+  height: 80%;
+}
 header {
   position: fixed;
   top: 0;
@@ -464,4 +470,13 @@ footer p {
   .site-wrapper .videoWrapper {
     display: none;
   }
+}
+* {
+  border: 1px solid black;
+}
+.about-wrapper .top-content .toptxt h1 {
+  color: black;
+}
+.about-wrapper .top-content .toptxt p {
+  color: black;
 }
