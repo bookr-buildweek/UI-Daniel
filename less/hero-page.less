@@ -1,11 +1,13 @@
 .site-wrapper{
     .CTA{
-        height: 880px;
+        height: auto;
+        width:auto;
         display:flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         z-index:-100;
+        // background: rgba(255, 255, 255, 0.399);
         // border: 1px solid red;
         @media @mobile{
             width: 100%;
@@ -18,7 +20,7 @@
             height: 30%;
             margin-left: 24rem;
             text-align: center;
-            background: rgba(255, 255, 255, 0.399);
+            // background: rgba(255, 255, 255, 0.399);
             @media @mobile{
                 margin: 0;
                 width:100%;
@@ -27,18 +29,18 @@
                 color: #F2B71E;
                 font-size: 10rem;
                 padding-bottom:5rem;
-                text-shadow: 2px 2px #070707;
+                // text-shadow: 2px 2px #070707;
                 @media @mobile{
                     padding-bottom:3rem;
                 }//Phone
             }
-            h2{
+            h3{
                 color:#F2B71E;
-                text-shadow: 2px 2px #070707;
+                // text-shadow: 2px 2px #070707;
                 @media @mobile{
                     padding-bottom:2rem;
                 }//Phone
-            }
+            }//h2
         }//End of CTA TEXT
         .signUp{
             align-items: baseline;
@@ -53,26 +55,39 @@
         }//Sign Up button
     }//End of CTA
 
-    .videoWrapper{
-        #bgVideo {
-            position: fixed;
-            right: 0;
-            bottom: 0;
-            top:0;
-            z-index:-200;
-            max-width: 100%; 
-            max-height: 100%;
-        }//Background video
-        @media @mobile{
-            // position: fixed;
-            // // top: 50%;
-            // left: 50%;
-            min-width: 100%;
-            min-height: 100%;
-            width: auto;
-            height: auto;
-        }//Phone
-    }//Video Wrapper
+    // .videoWrapper{
+    //     #bgVideo {
+    //     //     position: fixed;
+    //     //     right: 0;
+    //     //     bottom: 0;
+    //     //     top:0;
+    //     //     left: 0;
+    //     //     z-index:-200;
+    //     //     max-width: 100%; 
+    //     //     max-height: 100%;
+    //     // }//Background video
+    //     // @media @mobile{
+    //     //     // position: fixed;
+    //     //     // // top: 50%;
+    //     //     // left: 50%;
+    //     //     min-width: 100%;
+    //     //     min-height: 100%;
+    //     //     width: auto;
+    //     //     height: auto;
+    //     }//Phone
+    // }//Video Wrapper
+    .videoWrapper{ 
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -200;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+                transform: translateX(-50%) translateY(-50%);
+    }
 }//Site Wrapper
 
 
