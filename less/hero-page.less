@@ -2,27 +2,37 @@
     .CTA{
         height: 880px;
         display:flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         z-index:-100;
+        // border: 1px solid red;
         .cta-txt{
             display:flex;
-            border: 1px solid red;
             flex-direction: column;
-            width:60%;
-            height: 80%;
+            width:40%;
+            height: 30%;
+            margin-left: 24rem;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.399);
             h1{
                 color: #F2B71E;
                 font-size: 10rem;
+                padding-bottom:5rem;
+                text-shadow: 2px 2px #070707;
             }
             h2{
                 color:#F2B71E;
-            }
-            .signUp{
-                align-items: baseline;
-                width:40%;
+                text-shadow: 2px 2px #070707;
             }
         }//End of CTA TEXT
+        .signUp{
+            align-items: baseline;
+            width:40%;
+            margin-left: 24rem;
+            .button-master(1.5rem, 1.5rem);
+            .hover(1s);
+        }//Sign Up button
     }//End of CTA
 
     .videoWrapper{
@@ -37,5 +47,5 @@
         }//Background video
     }
 }//Site Wrapper
-//solid grey div over the video to make it black and white. and only color is from the green.
+
 
