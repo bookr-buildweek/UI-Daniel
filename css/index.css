@@ -199,6 +199,12 @@ header .navbar {
 header .navbar .logo {
   width: 82%;
 }
+@media (max-width: 500px) {
+  header .navbar .logo {
+    width: 20%;
+    border: 1px solid red;
+  }
+}
 header .navbar nav {
   margin: 0 auto;
   width: 15%;
