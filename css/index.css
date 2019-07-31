@@ -260,27 +260,47 @@ footer p {
 .site-wrapper .CTA {
   height: 880px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: -100;
 }
 .site-wrapper .CTA .cta-txt {
   display: flex;
-  border: 1px solid red;
   flex-direction: column;
-  width: 60%;
-  height: 80%;
+  width: 40%;
+  height: 30%;
+  margin-left: 24rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.399);
 }
 .site-wrapper .CTA .cta-txt h1 {
   color: #F2B71E;
   font-size: 10rem;
+  padding-bottom: 5rem;
+  text-shadow: 2px 2px #070707;
 }
 .site-wrapper .CTA .cta-txt h2 {
   color: #F2B71E;
+  text-shadow: 2px 2px #070707;
 }
-.site-wrapper .CTA .cta-txt .signUp {
+.site-wrapper .CTA .signUp {
   align-items: baseline;
   width: 40%;
+  margin-left: 24rem;
+  background-color: #BF9018;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  padding: 1.5rem;
+}
+.site-wrapper .CTA .signUp:hover {
+  transform: scale(1.1);
+  background-color: #e9bf54;
+  transition: 1s;
 }
 .site-wrapper .videoWrapper #bgVideo {
   position: fixed;
