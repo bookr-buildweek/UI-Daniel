@@ -211,7 +211,7 @@ img {
   max-width: 1000px;
   width: 100%;
   margin: 0  auto;
-  height: 80%;
+  height: 100%;
 }
 header {
   position: fixed;
@@ -471,12 +471,24 @@ footer p {
     display: none;
   }
 }
-* {
-  border: 1px solid black;
-}
 .about-wrapper .top-content .toptxt h1 {
   color: black;
 }
 .about-wrapper .top-content .toptxt p {
+  color: black;
+}
+.about-wrapper .middle-content h3 {
+  color: black;
+}
+.about-wrapper .middle-content p {
+  color: black;
+}
+.about-wrapper .team h2 {
+  color: black;
+}
+.about-wrapper .team p {
+  color: black;
+}
+.about-wrapper .team h3 {
   color: black;
 }
