@@ -219,6 +219,11 @@ header .navbar {
   width: 1000px;
   display: flex;
 }
+@media (max-width: 800px) {
+  header .navbar {
+    width: 800px;
+  }
+}
 @media (max-width: 500px) {
   header .navbar {
     width: 500px;
@@ -226,6 +231,11 @@ header .navbar {
 }
 header .navbar .logo {
   width: 82%;
+}
+@media (max-width: 800px) {
+  header .navbar .logo {
+    width: 50%;
+  }
 }
 @media (max-width: 500px) {
   header .navbar .logo {
@@ -238,6 +248,11 @@ header .navbar nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media (max-width: 800px) {
+  header .navbar nav {
+    width: 20%;
+  }
 }
 @media (max-width: 500px) {
   header .navbar nav {
@@ -333,6 +348,11 @@ footer p {
   .site-wrapper .CTA .cta-txt {
     margin: 0;
     width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .site-wrapper .CTA .cta-txt {
+    text-align: center;
   }
 }
 .site-wrapper .CTA .cta-txt h1 {
