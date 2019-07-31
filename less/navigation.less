@@ -4,6 +4,9 @@ header {
     background:@nav-bg;
     width:100%;
     padding:2rem;
+    @media @tablet {
+        padding: 0.7rem;
+    }
     @media @mobile{
         padding:0.2rem;
     }//Phone
@@ -11,14 +14,22 @@ header {
         margin: 0 auto;
         width:1000px;
         display:flex;
+        @media @tablet{
+            width:800px;
+        }//Tablet
         @media @mobile{
             width: 500px;
         }//Phone
+     
         .logo{
             width:82%;
+            @media @tablet{
+                width:70%;
+            }
             @media @mobile{
                 width: 60%;
             }//Phone
+      
         }//logo
         nav{
             margin: 0 auto;
@@ -26,12 +37,17 @@ header {
             display:flex;
             justify-content: space-between;
             align-items: center;
+            @media @tablet{
+                width:20%; 
+            }//Tablet
             @media @mobile{
                 width: 30%;
                 a{
                     font-size: 3rem;
-                }
+                }//phone
             }//Phone
+       
+            
             a{
                 font-size: 1.8rem;
                 &:hover{
