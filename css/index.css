@@ -187,7 +187,7 @@ img {
 header {
   position: fixed;
   top: 0;
-  background: #169923de;
+  background: rgba(13, 88, 21, 0.92);
   width: 100%;
   padding: 2rem;
 }
@@ -219,7 +219,7 @@ header .navbar nav #signIn:hover {
   color: #332706;
 }
 footer {
-  background: #169923de;
+  background: rgba(13, 88, 21, 0.92);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -273,20 +273,14 @@ footer p {
 }
 .site-wrapper .CTA .cta-txt h1 {
   color: #332706;
+  font-size: 10rem;
 }
-.site-wrapper .CTA .cta-txt h3 {
+.site-wrapper .CTA .cta-txt h2 {
   color: #332706;
 }
 .site-wrapper .CTA .cta-txt .signUp {
   align-items: baseline;
   width: 40%;
-}
-.site-wrapper .bw {
-  background: rgba(0, 0, 0, 0.358);
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  border: 1px solid black;
 }
 .site-wrapper .videoWrapper #bgVideo {
   position: fixed;
