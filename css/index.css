@@ -186,12 +186,12 @@ img {
   width: 100%;
   margin: 0  auto;
 }
-.background {
+.backgroundLanding {
   background: black;
   z-index: -189;
   height: auto;
   width: 100%;
-  background: rgba(255, 255, 255, 0.591);
+  background: rgba(94, 93, 93, 0.591);
 }
 header {
   position: fixed;
@@ -202,7 +202,7 @@ header {
 }
 @media (max-width: 500px) {
   header {
-    padding: 1rem;
+    padding: 0.2rem;
   }
 }
 header .navbar {
@@ -212,7 +212,7 @@ header .navbar {
 }
 @media (max-width: 500px) {
   header .navbar {
-    width: 100%;
+    width: 500px;
   }
 }
 header .navbar .logo {
@@ -220,7 +220,7 @@ header .navbar .logo {
 }
 @media (max-width: 500px) {
   header .navbar .logo {
-    width: 70%;
+    width: 65%;
   }
 }
 header .navbar nav {
@@ -301,12 +301,9 @@ footer p {
 }
 .site-wrapper .CTA {
   height: auto;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
   z-index: -100;
+  border: 1px solid red;
 }
 @media (max-width: 500px) {
   .site-wrapper .CTA {
@@ -315,12 +312,10 @@ footer p {
   }
 }
 .site-wrapper .CTA .cta-txt {
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-  height: 30%;
-  margin-left: 24rem;
-  text-align: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+  text-align: justify;
 }
 @media (max-width: 500px) {
   .site-wrapper .CTA .cta-txt {
@@ -329,8 +324,8 @@ footer p {
   }
 }
 .site-wrapper .CTA .cta-txt h1 {
-  color: #F2B71E;
-  font-size: 10rem;
+  color: #BF9018;
+  font-size: 15rem;
   padding-bottom: 5rem;
 }
 @media (max-width: 500px) {
@@ -339,7 +334,8 @@ footer p {
   }
 }
 .site-wrapper .CTA .cta-txt h3 {
-  color: #F2B71E;
+  color: #332706;
+  font-size: 5.5rem;
 }
 @media (max-width: 500px) {
   .site-wrapper .CTA .cta-txt h3 {
@@ -349,7 +345,6 @@ footer p {
 .site-wrapper .CTA .signUp {
   align-items: baseline;
   width: 40%;
-  margin-left: 24rem;
   background-color: #BF9018;
   border: 1px solid #BF9018;
   color: white;
@@ -380,7 +375,7 @@ footer p {
   left: 50%;
   min-width: 100%;
   min-height: 100%;
-  width: auto;
+  width: 100%;
   height: auto;
   z-index: -200;
   -webkit-transform: translateX(-50%) translateY(-50%);
