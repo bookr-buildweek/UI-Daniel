@@ -187,10 +187,9 @@ img {
 header {
   position: fixed;
   top: 0;
-  background: rgba(191, 144, 24, 0.708);
+  background: #169923de;
   width: 100%;
   padding: 2rem;
-  border-bottom: 0.2rem dashed #E5E4E1;
 }
 header .navbar {
   margin: 0 auto;
@@ -214,18 +213,17 @@ header .navbar nav a:hover {
   color: #332706;
 }
 header .navbar nav #signIn {
-  color: #0D5814;
+  color: #BF9018;
 }
 header .navbar nav #signIn:hover {
   color: #332706;
 }
 footer {
-  background: rgba(191, 144, 24, 0.708);
+  background: #169923de;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1.25rem;
-  border-top: 0.2rem dashed #E5E4E1;
 }
 footer nav .fa {
   font-size: 2.5rem;
@@ -260,14 +258,7 @@ footer p {
   font-size: 1rem;
 }
 .site-wrapper .CTA {
-  background-image: url("/imgs/book.jpg");
   height: 880px;
-  border-left: 0.2rem solid #E5E4E1;
-  border-right: 0.2rem solid #E5E4E1;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -289,6 +280,13 @@ footer p {
 .site-wrapper .CTA .cta-txt .signUp {
   align-items: baseline;
   width: 40%;
+}
+.site-wrapper .bw {
+  background: rgba(0, 0, 0, 0.358);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  border: 1px solid black;
 }
 .site-wrapper .videoWrapper #bgVideo {
   position: fixed;
