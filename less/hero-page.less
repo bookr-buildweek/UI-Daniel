@@ -7,6 +7,10 @@
         align-items: center;
         z-index:-100;
         // border: 1px solid red;
+        @media @mobile{
+            width: 100%;
+            height:auto;
+        }//Phone
         .cta-txt{
             display:flex;
             flex-direction: column;
@@ -15,15 +19,25 @@
             margin-left: 24rem;
             text-align: center;
             background: rgba(255, 255, 255, 0.399);
+            @media @mobile{
+                margin: 0;
+                width:100%;
+            }//Phone
             h1{
                 color: #F2B71E;
                 font-size: 10rem;
                 padding-bottom:5rem;
                 text-shadow: 2px 2px #070707;
+                @media @mobile{
+                    padding-bottom:3rem;
+                }//Phone
             }
             h2{
                 color:#F2B71E;
                 text-shadow: 2px 2px #070707;
+                @media @mobile{
+                    padding-bottom:2rem;
+                }//Phone
             }
         }//End of CTA TEXT
         .signUp{
@@ -32,6 +46,10 @@
             margin-left: 24rem;
             .button-master(1.5rem, 1.5rem);
             .hover();
+            @media @mobile{
+                margin:0;
+                width:65%;
+            }//Phone
         }//Sign Up button
     }//End of CTA
 
@@ -45,7 +63,16 @@
             max-width: 100%; 
             max-height: 100%;
         }//Background video
-    }
+        @media @mobile{
+            // position: fixed;
+            // // top: 50%;
+            // left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+        }//Phone
+    }//Video Wrapper
 }//Site Wrapper
 
 

@@ -4,16 +4,21 @@ header {
     background:@nav-bg;
     width:100%;
     padding:2rem;
+    @media @mobile{
+        padding:1rem;
+    }//Phone
     .navbar{
         margin: 0 auto;
         width:1000px;
         display:flex;
+        @media @mobile{
+            width: 100%;
+        }//Phone
         .logo{
             width:82%;
             @media @mobile{
-                width: 20%;
-                border: 1px solid red;
-            }
+                width: 70%;
+            }//Phone
         }
         nav{
             margin: 0 auto;
@@ -21,6 +26,12 @@ header {
             display:flex;
             justify-content: space-between;
             align-items: center;
+            @media @mobile{
+                width: 30%;
+                a{
+                    font-size: 3rem;
+                }
+            }//Phone
             a{
                 font-size: 1.8rem;
                 &:hover{

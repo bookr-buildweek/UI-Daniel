@@ -4,6 +4,11 @@ footer{
     flex-direction: column;
     align-items: center;
     padding: 1.25rem;
+    @media @mobile{
+        position: fixed;
+        bottom:0;
+        width:100%;
+    }//Phone
     nav{
         // width: 42%;
 
@@ -15,6 +20,11 @@ footer{
             text-decoration: none;
             margin: 0.5rem 2rem;
             border-radius: 50%; 
+            @media @mobile{
+                    width: 7rem;
+                    font-size: 3rem;
+                    padding: 2rem;  
+            }//Phone
         }//Social media button
         .fa:hover {
             opacity: 0.7;
