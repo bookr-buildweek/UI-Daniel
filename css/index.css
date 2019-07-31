@@ -327,6 +327,7 @@ footer p {
 .site-wrapper .CTA .cta-txt h1 {
   color: #BF9018;
   font-size: 15rem;
+  padding-top: 2rem;
   padding-bottom: 5rem;
 }
 @media (max-width: 500px) {
@@ -348,7 +349,6 @@ footer p {
   padding-left: 20rem;
 }
 .site-wrapper .CTA .btn .signUp {
-  border: 2px solid red;
   align-items: baseline;
   width: 40%;
   background-color: #BF9018;
