@@ -487,11 +487,8 @@ footer p {
     display: none;
   }
 }
-.about-wrapper .top-content {
-  border: 1px red solid;
-}
 .about-wrapper .top-content .toptxt h1 {
-  color: black;
+  color: #BF9018;
 }
 .about-wrapper .top-content .toptxt p {
   color: black;
@@ -519,26 +516,24 @@ footer p {
   box-shadow: 0px 15px 22px #00000048;
 }
 .about-wrapper .middle-content {
-  border: 1px red solid;
   display: flex;
   justify-content: space-around;
 }
 .about-wrapper .middle-content h3 {
-  color: black;
+  color: #BF9018;
 }
 .about-wrapper .middle-content p {
   color: black;
   padding: 0.5rem;
 }
 .about-wrapper .middle-content .service {
-  border: 1px red solid;
   width: 25%;
 }
 .about-wrapper .team {
   margin: 5rem;
 }
 .about-wrapper .team h2 {
-  color: black;
+  color: #BF9018;
 }
 .about-wrapper .team p {
   color: black;
@@ -548,26 +543,33 @@ footer p {
   color: black;
 }
 .about-wrapper .team h4 {
+  padding-top: 1rem;
   color: black;
 }
 .about-wrapper .team .teamtext {
   text-align: center;
   padding: 2rem;
-  border: 1px red solid;
+  border-bottom: 0.2rem #E5E4E1 dashed;
 }
 .about-wrapper .team .bios {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 2rem;
-  border: 1px red solid;
 }
 .about-wrapper .team .bios .teamcards {
-  border: 1px red solid;
+  display: flex;
+  flex-direction: column;
+  background: #1699237b;
+  box-shadow: 20px 15px 22px #00000048;
   width: 30%;
   height: 50rem;
   margin: 2rem;
   padding: 1rem;
+  align-items: center;
+}
+.about-wrapper .team .bios .teamcards p {
+  padding-bottom: 2rem;
 }
 .about-wrapper .team .bios .teamcards .gitbtn {
   background-color: #BF9018;
