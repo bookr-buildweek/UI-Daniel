@@ -496,6 +496,28 @@ footer p {
 .about-wrapper .top-content .toptxt p {
   color: black;
 }
+.about-wrapper .top-content .signupbtn .aboutbtn {
+  background-color: #BF9018;
+  border: 1px solid #BF9018;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  padding: 1.5rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  width: 20rem;
+}
+.about-wrapper .top-content .signupbtn .aboutbtn:active {
+  background-color: #e9bf54;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+.about-wrapper .top-content .signupbtn .aboutbtn:hover {
+  box-shadow: 0px 15px 22px #00000048;
+}
 .about-wrapper .middle-content {
   border: 1px red solid;
   display: flex;
@@ -544,5 +566,6 @@ footer p {
   border: 1px red solid;
   width: 30%;
   height: 50rem;
-  margin: 5rem;
+  margin: 2rem;
+  padding: 1rem;
 }
