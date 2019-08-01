@@ -487,11 +487,21 @@ footer p {
     display: none;
   }
 }
+.about-wrapper .top-content {
+  margin-bottom: 10.5rem;
+}
+.about-wrapper .top-content .toptxt {
+  padding: 2.5rem;
+}
 .about-wrapper .top-content .toptxt h1 {
   color: #BF9018;
+  padding-bottom: 2rem;
 }
 .about-wrapper .top-content .toptxt p {
   color: black;
+}
+.about-wrapper .top-content .signupbtn {
+  padding-left: 5rem;
 }
 .about-wrapper .top-content .signupbtn .aboutbtn {
   background-color: #BF9018;
