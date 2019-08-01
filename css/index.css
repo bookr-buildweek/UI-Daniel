@@ -221,6 +221,11 @@ img {
 .about-body {
   padding-bottom: 10rem;
 }
+@media (max-width: 500px) {
+  .about-body {
+    padding-bottom: 12rem;
+  }
+}
 header {
   position: fixed;
   top: 0;
@@ -525,6 +530,28 @@ footer p {
 .about-wrapper .top-content .signupbtn .aboutbtn:hover {
   box-shadow: 0px 15px 22px #00000048;
 }
+@media (max-width: 500px) {
+  .about-wrapper .top-content {
+    margin-bottom: 8rem;
+  }
+  .about-wrapper .top-content .toptxt {
+    padding: 1.5rem;
+  }
+  .about-wrapper .top-content .toptxt h1 {
+    font-size: 6rem;
+  }
+  .about-wrapper .top-content .signupbtn {
+    padding-top: 5rem;
+    padding-left: 10rem;
+  }
+  .about-wrapper .top-content .signupbtn .aboutbtn {
+    width: 30rem;
+    height: 8rem;
+  }
+  .about-wrapper .top-content .signupbtn .aboutbtn a {
+    font-size: 4rem;
+  }
+}
 .about-wrapper .middle-content {
   display: flex;
   justify-content: space-around;
@@ -541,6 +568,19 @@ footer p {
 }
 .about-wrapper .middle-content .middle-box {
   width: 25%;
+}
+@media (max-width: 500px) {
+  .about-wrapper .middle-content {
+    flex-direction: column;
+  }
+  .about-wrapper .middle-content h3 {
+    font-size: 4em;
+    padding-bottom: 0.5rem;
+  }
+  .about-wrapper .middle-content .middle-box {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
 }
 .about-wrapper .team {
   margin: 5rem;
@@ -563,6 +603,14 @@ footer p {
   text-align: center;
   padding: 2rem;
   border-bottom: 0.2rem #E5E4E1 dashed;
+}
+@media (max-width: 500px) {
+  .about-wrapper .team {
+    margin: 1rem;
+  }
+  .about-wrapper .team h2 {
+    font-size: 4rem;
+  }
 }
 .about-wrapper .team .bios {
   display: flex;
@@ -611,5 +659,12 @@ footer p {
     height: 48rem;
     width: 45%;
     margin: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  .about-wrapper .team .bios .teamcards {
+    width: 100%;
+    height: auto;
+    margin: 1.5rem;
   }
 }
