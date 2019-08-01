@@ -529,6 +529,9 @@ footer p {
   display: flex;
   justify-content: space-around;
 }
+.about-wrapper .middle-content img {
+  padding-bottom: 1rem;
+}
 .about-wrapper .middle-content h3 {
   color: #BF9018;
 }
@@ -572,8 +575,8 @@ footer p {
   flex-direction: column;
   background: #1699237b;
   box-shadow: 20px 15px 22px #00000048;
-  width: 30%;
-  height: 50rem;
+  width: 40%;
+  height: 55rem;
   margin: 2rem;
   padding: 1rem;
   align-items: center;
