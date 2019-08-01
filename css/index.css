@@ -207,11 +207,19 @@ img {
   height: 90vh;
   background: rgba(235, 231, 231, 0.625);
 }
+@media (max-width: 500px) {
+  .backgroundLanding {
+    background-image: url("/imgs/book.jpg");
+  }
+}
 .about-wrapper {
   max-width: 1000px;
   width: 100%;
   margin: 0  auto;
   height: 100%;
+}
+.about-body {
+  padding-bottom: 10rem;
 }
 header {
   position: fixed;
@@ -246,11 +254,16 @@ header .navbar {
   }
 }
 header .navbar .logo {
-  width: 82%;
+  width: 70%;
+}
+@media (max-width: 1000px) {
+  header .navbar .logo {
+    width: 65%;
+  }
 }
 @media (max-width: 800px) {
   header .navbar .logo {
-    width: 70%;
+    width: 65%;
   }
 }
 @media (max-width: 500px) {
@@ -260,9 +273,9 @@ header .navbar .logo {
 }
 header .navbar nav {
   margin: 0 auto;
-  width: 15%;
+  width: 30%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 @media (max-width: 800px) {
@@ -434,6 +447,9 @@ footer p {
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
   color: #fff;
 }
+.site-wrapper .CTA .btn .signUp:hover {
+  box-shadow: 0px 15px 22px #00000048;
+}
 @media (max-width: 500px) {
   .site-wrapper .CTA .btn .signUp {
     margin: 0;
@@ -471,27 +487,62 @@ footer p {
     display: none;
   }
 }
+.about-wrapper .top-content {
+  border: 1px red solid;
+}
 .about-wrapper .top-content .toptxt h1 {
   color: black;
 }
 .about-wrapper .top-content .toptxt p {
   color: black;
 }
+.about-wrapper .middle-content {
+  border: 1px red solid;
+  display: flex;
+  justify-content: space-around;
+}
 .about-wrapper .middle-content h3 {
   color: black;
 }
 .about-wrapper .middle-content p {
   color: black;
+  padding: 0.5rem;
+}
+.about-wrapper .middle-content .service {
+  border: 1px red solid;
+  width: 25%;
+}
+.about-wrapper .team {
+  margin: 5rem;
 }
 .about-wrapper .team h2 {
   color: black;
 }
 .about-wrapper .team p {
   color: black;
+  padding: 0.5rem;
 }
 .about-wrapper .team h3 {
   color: black;
 }
 .about-wrapper .team h4 {
   color: black;
+}
+.about-wrapper .team .teamtext {
+  text-align: center;
+  padding: 2rem;
+  border: 1px red solid;
+}
+.about-wrapper .team .bios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2rem;
+  border: 1px red solid;
+}
+.about-wrapper .team .bios .teamcards {
+  border: 1px red solid;
+  width: 30%;
+  height: 50rem;
+  margin: 5rem;
 }

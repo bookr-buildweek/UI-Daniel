@@ -22,9 +22,12 @@ header {
         }//Phone
      
         .logo{
-            width:82%;
+            width:70%;
+            @media @mvp{
+                width:65%;
+            }
             @media @tablet{
-                width:70%;
+                width:65%;
             }
             @media @mobile{
                 width: 60%;
@@ -33,9 +36,9 @@ header {
         }//logo
         nav{
             margin: 0 auto;
-            width:15%;
+            width:30%;
             display:flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
             align-items: center;
             @media @tablet{
                 width:20%; 
