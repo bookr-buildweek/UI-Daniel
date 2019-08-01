@@ -498,7 +498,7 @@ footer p {
   padding-bottom: 2rem;
 }
 .about-wrapper .top-content .toptxt p {
-  color: black;
+  color: #332706;
 }
 .about-wrapper .top-content .signupbtn {
   padding-left: 5rem;
@@ -533,7 +533,7 @@ footer p {
   color: #BF9018;
 }
 .about-wrapper .middle-content p {
-  color: black;
+  color: #332706;
   padding: 0.5rem;
 }
 .about-wrapper .middle-content .middle-box {
@@ -546,15 +546,15 @@ footer p {
   color: #BF9018;
 }
 .about-wrapper .team p {
-  color: black;
+  color: #332706;
   padding: 0.5rem;
 }
 .about-wrapper .team h3 {
-  color: black;
+  color: #332706;
 }
 .about-wrapper .team h4 {
   padding-top: 1rem;
-  color: black;
+  color: #332706;
 }
 .about-wrapper .team .teamtext {
   text-align: center;
