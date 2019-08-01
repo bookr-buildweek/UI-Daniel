@@ -569,3 +569,25 @@ footer p {
   margin: 2rem;
   padding: 1rem;
 }
+.about-wrapper .team .bios .teamcards .gitbtn {
+  background-color: #BF9018;
+  border: 1px solid #BF9018;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  padding: 1.5rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  width: 15rem;
+}
+.about-wrapper .team .bios .teamcards .gitbtn:active {
+  background-color: #e9bf54;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+.about-wrapper .team .bios .teamcards .gitbtn:hover {
+  box-shadow: 0px 15px 22px #00000048;
+}
