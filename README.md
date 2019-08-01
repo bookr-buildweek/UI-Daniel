@@ -10,6 +10,7 @@ do font color and accents
 do mobile and tablet view
 split up less files for about.
 dropp in react link.
+drop shadow on id cards. use transform skew
 
 
 

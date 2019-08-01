@@ -251,7 +251,7 @@ header .navbar {
   }
 }
 header .navbar .logo {
-  width: 78%;
+  width: 70%;
 }
 @media (max-width: 1000px) {
   header .navbar .logo {
@@ -260,7 +260,7 @@ header .navbar .logo {
 }
 @media (max-width: 800px) {
   header .navbar .logo {
-    width: 70%;
+    width: 65%;
   }
 }
 @media (max-width: 500px) {
