@@ -461,6 +461,9 @@ footer p {
     width: 100%;
   }
 }
+.site-wrapper .CTA .btn .signUp a {
+  font-size: 3.7rem;
+}
 .site-wrapper #bgVideo {
   width: auto;
   height: 155vh;
