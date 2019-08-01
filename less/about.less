@@ -2,6 +2,7 @@
 
 .about-wrapper{
     .top-content{
+        border:1px red solid;
         .toptxt{
             h1{
                 color:black;
@@ -12,19 +13,29 @@
         }
     }
     .middle-content{
+        border:1px red solid;
+        display:flex;
+        justify-content: space-around;
         h3{
             color:black;
         }
         p{
             color:black;
+            padding: 0.5rem;
+        }
+        .service{
+            border:1px red solid;
+            width: 25%;
         }
     }
     .team{
+        margin:5rem;
         h2{
             color:black;
         }
         p{
             color:black;
+            padding: 0.5rem;
         }
         h3{
             color:black;
@@ -32,5 +43,24 @@
         h4{
             color: black;
         }
+        .teamtext{
+            text-align: center;
+            padding:2rem;
+            border:1px red solid;
+        }
+        .bios{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content: space-around;
+            margin:2rem;
+            border:1px red solid;
+            .teamcards{
+                border:1px red solid;
+                width:30%;
+                height: 50rem;
+                margin: 5rem;
+            }
+        }
+
     }
 }
