@@ -487,11 +487,21 @@ footer p {
     display: none;
   }
 }
+.about-wrapper .top-content {
+  margin-bottom: 10.5rem;
+}
+.about-wrapper .top-content .toptxt {
+  padding: 2.5rem;
+}
 .about-wrapper .top-content .toptxt h1 {
   color: #BF9018;
+  padding-bottom: 2rem;
 }
 .about-wrapper .top-content .toptxt p {
-  color: black;
+  color: #332706;
+}
+.about-wrapper .top-content .signupbtn {
+  padding-left: 5rem;
 }
 .about-wrapper .top-content .signupbtn .aboutbtn {
   background-color: #BF9018;
@@ -519,14 +529,17 @@ footer p {
   display: flex;
   justify-content: space-around;
 }
+.about-wrapper .middle-content img {
+  padding-bottom: 1rem;
+}
 .about-wrapper .middle-content h3 {
   color: #BF9018;
 }
 .about-wrapper .middle-content p {
-  color: black;
+  color: #332706;
   padding: 0.5rem;
 }
-.about-wrapper .middle-content .service {
+.about-wrapper .middle-content .middle-box {
   width: 25%;
 }
 .about-wrapper .team {
@@ -536,15 +549,15 @@ footer p {
   color: #BF9018;
 }
 .about-wrapper .team p {
-  color: black;
+  color: #332706;
   padding: 0.5rem;
 }
 .about-wrapper .team h3 {
-  color: black;
+  color: #332706;
 }
 .about-wrapper .team h4 {
   padding-top: 1rem;
-  color: black;
+  color: #332706;
 }
 .about-wrapper .team .teamtext {
   text-align: center;
@@ -562,8 +575,8 @@ footer p {
   flex-direction: column;
   background: #1699237b;
   box-shadow: 20px 15px 22px #00000048;
-  width: 30%;
-  height: 50rem;
+  width: 40%;
+  height: 55rem;
   margin: 2rem;
   padding: 1rem;
   align-items: center;
