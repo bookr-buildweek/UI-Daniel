@@ -468,16 +468,6 @@ footer p {
 .site-wrapper .CTA .btn .signUp a {
   font-size: 3.7rem;
 }
-.site-wrapper #bgVideo {
-  width: auto;
-  height: 155vh;
-  margin: 0;
-}
-@media (max-width: 800px) {
-  .site-wrapper #bgVideo {
-    height: 100vh;
-  }
-}
 .site-wrapper .videoWrapper {
   position: fixed;
   top: 50%;
@@ -488,6 +478,16 @@ footer p {
   -webkit-transform: translateX(-65%) translateY(-100%);
   transform: translateX(-65%) translateY(-100%);
 }
+.site-wrapper .videoWrapper #bgVideo {
+  width: auto;
+  height: 155vh;
+  margin: 0;
+}
+@media (max-width: 800px) {
+  .site-wrapper .videoWrapper #bgVideo {
+    height: 100vh;
+  }
+}
 @media (max-width: 1000px) {
   .site-wrapper .videoWrapper {
     width: 240%;
@@ -496,8 +496,8 @@ footer p {
 @media (max-width: 800px) {
   .site-wrapper .videoWrapper {
     width: 200%;
-    -webkit-transform: translateX(-80%) translateY(-60%);
-    transform: translateX(-80%) translateY(-60%);
+    -webkit-transform: translateX(-80%) translateY(-50%);
+    transform: translateX(-80%) translateY(-50%);
   }
 }
 @media (max-width: 500px) {
