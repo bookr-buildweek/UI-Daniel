@@ -479,11 +479,6 @@ footer p {
   -webkit-transform: translateX(-65%) translateY(-100%);
   transform: translateX(-65%) translateY(-100%);
 }
-@media (max-width: 1000px) {
-  .site-wrapper .videoWrapper {
-    width: 240%;
-  }
-}
 @media (max-width: 800px) {
   .site-wrapper .videoWrapper {
     width: 200%;
@@ -497,10 +492,16 @@ footer p {
   }
 }
 .site-wrapper .videoWrapper #bgVideo {
-  width: 155vh;
+  position: fixed;
   height: 150%;
   width: auto;
   margin: 0;
+}
+@media (max-width: 800px) {
+  .site-wrapper .videoWrapper #bgVideo {
+    width: 150%;
+    height: auto;
+  }
 }
 .about-wrapper .top-content {
   margin-bottom: 10.5rem;
