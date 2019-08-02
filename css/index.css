@@ -496,15 +496,10 @@ footer p {
   }
 }
 .site-wrapper .videoWrapper #bgVideo {
+  width: 155vh;
+  height: 150%;
   width: auto;
-  height: 155vh;
   margin: 0;
-}
-@media (max-width: 800px) {
-  .site-wrapper .videoWrapper #bgVideo {
-    height: 100vh;
-    width: 170%;
-  }
 }
 .about-wrapper .top-content {
   margin-bottom: 10.5rem;
