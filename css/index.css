@@ -490,11 +490,12 @@ footer p {
 }
 @media (max-width: 1000px) {
   .site-wrapper .videoWrapper {
-    width: 200%;
+    width: 240%;
   }
 }
 @media (max-width: 800px) {
   .site-wrapper .videoWrapper {
+    width: 200%;
     -webkit-transform: translateX(-80%) translateY(-60%);
     transform: translateX(-80%) translateY(-60%);
   }
