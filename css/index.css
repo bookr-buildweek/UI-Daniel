@@ -244,6 +244,7 @@ header {
   }
 }
 header .navbar {
+  border: 1px red solid;
   margin: 0 auto;
   width: 1000px;
   display: flex;
@@ -273,11 +274,10 @@ header .navbar .logo {
 }
 @media (max-width: 500px) {
   header .navbar .logo {
-    width: 60%;
+    width: 68%;
   }
 }
 header .navbar nav {
-  margin: 0 auto;
   width: 30%;
   display: flex;
   justify-content: space-evenly;
