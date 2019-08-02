@@ -488,6 +488,11 @@ footer p {
   -webkit-transform: translateX(-65%) translateY(-100%);
   transform: translateX(-65%) translateY(-100%);
 }
+@media (max-width: 1000px) {
+  .site-wrapper .videoWrapper {
+    width: 200%;
+  }
+}
 @media (max-width: 800px) {
   .site-wrapper .videoWrapper {
     -webkit-transform: translateX(-80%) translateY(-60%);
