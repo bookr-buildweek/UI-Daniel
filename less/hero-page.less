@@ -87,14 +87,6 @@
         z-index: -200;
         -webkit-transform: translateX(-65%) translateY(-100%);
                 transform: translateX(-65%) translateY(-100%);
-        #bgVideo{
-            width: auto;
-            height: 155vh;
-            margin:0;
-            @media @tablet{
-                height: 100vh
-            }
-        }
             @media @mvp{
                 width: 240%;
             }
@@ -106,7 +98,17 @@
             @media @mobile{
                 display: none;
             }
-    }//video
+        }//video
+        #bgVideo{
+            width: auto;
+            height: 155vh;
+            margin:0;
+            @media @tablet{
+                height: 100vh;
+                width: 170%;
+            }
+        }
+
 }//Site Wrapper
 
 
